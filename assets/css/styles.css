@@ -531,7 +531,9 @@ body.dark-theme {
 .small-text {
   font-size: smaller; /* or adjust to your preferred font size */
 }
-
+.about__info > div {
+   margin-bottom: 10px; /* Adjust as needed */
+}
 /*=============== BUTTON ===============*/
 .button,
 .button__ghost {
