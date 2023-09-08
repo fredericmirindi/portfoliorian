@@ -528,6 +528,9 @@ body.dark-theme {
     transform: translateY(.6rem);
   }
 }
+.small-text {
+  font-size: smaller; /* or adjust to your preferred font size */
+}
 
 /*=============== BUTTON ===============*/
 .button,
