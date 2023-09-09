@@ -1511,3 +1511,18 @@ body.dark-theme {
     right: 3rem;
   }
 }
+/* Add this CSS to your existing stylesheet */
+
+/* Mobile Styles */
+@media screen and (max-width: 768px) {
+  .home__name {
+    display: block; /* Display the name on a new line */
+  }
+  
+  .small-text {
+    font-size: 0.75em; /* Adjust the font size for "PhD Candidate" */
+    display: block;
+    margin-top: 5px; /* Add some top margin for spacing */
+  }
+}
+
