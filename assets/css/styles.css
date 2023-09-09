@@ -1516,13 +1516,14 @@ body.dark-theme {
 /* Mobile Styles */
 @media screen and (max-width: 768px) {
   .home__name {
-    display: block; /* Display the name on a new line */
+    white-space: nowrap; /* Keep the name on one line */
+    overflow: hidden;
+    text-overflow: ellipsis; /* Add ellipsis (...) for long names */
   }
-  
+
   .small-text {
-    font-size: 0.75em; /* Adjust the font size for "PhD Candidate" */
     display: block;
-    margin-top: 5px; /* Add some top margin for spacing */
+    font-size: 0.75em;
   }
 }
 
