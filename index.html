@@ -76,7 +76,7 @@
          <section class="home section" id="home">
             <div class="about__container container grid">
                <h1 class="home__name">
-                   <span class="small-text">Frédéric Mirindi</span>
+                   <span class="small-text">About Me.</span>
                </h1>
 
                <div class="about__perfil">
@@ -200,7 +200,54 @@
             </ul>
             <div style="margin-bottom: 10px;"></div> <!-- Add spacing after this item -->
         </div>
+	    
+ <!-- Research Outputs -->
+        <div>
+            <h2 class="section__title-2">
+                <span>Research Outputs.</span>
+            </h2>
+            <ul>
+                <li id="paper-1">- Frédéric Mirindi (2023): <i>Family Size and Child Outcomes in Sub-Saharan Africa: The Role of Social Norms</i>, Working Paper <a href="research/papers/paper1.pdf" target="_blank" onclick="showAbstract('abstract-1')"><i class="fa fa-file-pdf-o"></i></a></li>
+                <!-- Add more papers as needed -->
+            </ul>
+            <!-- Abstract container -->
+            <div id="abstract-container">
+                <div id="abstract-1" class="abstract">
+                    <h3>Abstract</h3>
+                    <p>The economic literature suggests that family size is a driver of child outcomes...</p>
+                    <p>Keywords: family size, human capital, quantity-quality tradeoff, dilution effect, spillover effect, social norms, Sub-Saharan Africa</p>
+                </div>
+                <!-- Add more abstracts as needed -->
+            </div>
+        </div>
 
+	    <!-- Research Outputs -->
+<div>
+    <h2 class="section__title-2">
+        <span>Research Outputs.</span>
+    </h2>
+    <ul>
+        <li id="paper-1" onclick="toggleAbstract('abstract-1')">- Frédéric Mirindi (2023): <i>Family Size and Child Outcomes in Sub-Saharan Africa: The Role of Social Norms</i>, Working Paper <a href="research/papers/paper1.pdf" target="_blank" onclick="showAbstract('abstract-1')"><i class="fa fa-file-pdf-o"></i></a></li>
+        <!-- Add more papers as needed -->
+    </ul>
+    <!-- Abstract container -->
+    <div id="abstract-container">
+        <div id="abstract-1" class="abstract">
+            <h3>Abstract</h3>
+            <p>The economic literature suggests that family size is a driver of child outcomes...</p>
+            <p>Keywords: family size, human capital, quantity-quality tradeoff, dilution effect, spillover effect, social norms, Sub-Saharan Africa</p>
+        </div>
+        <!-- Add more abstracts as needed -->
+    </div>
+</div>
+
+<script>
+    function toggleAbstract(abstractId) {
+        var abstract = document.getElementById(abstractId);
+        abstract.style.display = (abstract.style.display === 'none' || abstract.style.display === '') ? 'block' : 'none';
+    }
+</script>
+	    
     </div>
 </section>
 
