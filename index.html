@@ -13,7 +13,7 @@
       <!--=============== CSS ===============-->
       <link rel="stylesheet" href="assets/css/styles.css">
 
-      <title>Responsive portfolio website Rian - Bedimcode</title>
+      <title> fredericmirindi</title>
    </head>
    <body>
       <!--==================== HEADER ====================-->
@@ -32,11 +32,15 @@
 
                <ul class="nav__list">
                   <li class="nav__item">
-                     <a href="#home" class="nav__link active-link">Home</a>
+                     <a href="#about" class="nav__link active-link">About Me</a>
                   </li>
 
                   <li class="nav__item">
-                     <a href="#about" class="nav__link">About Me</a>
+                     <a href="#research" class="nav__link">Research</a>
+                  </li>
+
+                  <li class="nav__item">
+                     <a href="#services" class="nav__link">Services</a>
                   </li>
 
                   <li class="nav__item">
@@ -68,85 +72,37 @@
 
       <!--==================== MAIN ====================-->
       <main class="main">
-         <!--==================== HOME ====================-->
+         <!--==================== ABOUT ====================-->
          <section class="home section" id="home">
-            <div class="home__container container grid">
+            <div class="about__container container grid">
                <h1 class="home__name">
                    <span class="small-text">Frédéric Mirindi</span>
                </h1>
 
-               <div class="home__perfil">
+               <div class="about__perfil">
                   <div class="home__image">
                      <img src="assets/img/home-perfil.jpg" alt="image" class="home__img">
-                     <div class="home__shadow"></div>
-
-                     <img src="assets/img/curved-arrow.svg" alt="" class="home__arrow">
-                     <img src="assets/img/random-lines.svg" alt="" class="home__line">
-
+                     <div class="about__shadow"></div>
                      <div class="geometric-box"></div>
-                  </div>
-
-                  <div class="home__social">
-                     <a href="https://www.instagram.com/" target="_blank" class="home__social-link">
-                        <i class="ri-instagram-line"></i>
-                     </a>
-
-                     <a href="https://www.linkedin.com/" target="_blank" class="home__social-link">
-                        <i class="ri-linkedin-box-line"></i>
-                     </a>
-
-                     <a href="https://github.com/" target="_blank" class="home__social-link">
-                        <i class="ri-github-line"></i>
-                     </a>
-                  </div>
+                     <img src=" assets/img/random-lines.svg " alt="" class=" about__line ">
+                     <div class="about__box"></div>
                </div>
+              </div>
 
-               <div class="home__info">
-                  <p class="home__description">
-                     <b>Economist</b>, and PhD candidate at the University of Manitoba, 
-                     specializing in Economics, with a focus on actuarial science and econometrics.             
-                     My work is centered around experimental economics and microeconometrics.
-                                 </p>
-                  
-                  <a href="#about" class="home__scroll">
-                     <div class="home__scroll-box">
-                        <i class="ri-arrow-down-s-line"></i>
-                     </div>
-                     
-                     <span class="home__scroll-text">Scroll Down</span>
-                  </a>
-               </div>
-            </div>
-         </section>
-
-         <!--==================== ABOUT ====================-->
-     <section class="about section" id="about">
-   <div class="about__container container grid">
-      <h2 class="section__title-1">
-         <span>About Me.</span>
-      </h2>
-
-      <div class="about__perfil">
-         <div class="about__image">
-            <img src="assets/img/about-perfil.jpg" alt="image" class="about__img">
-            <div class="about__shadow"></div>
-            <div class="geometric-box"></div>
-            <img src="assets/img/random-lines.svg" alt="" class="about__line">
-            <div class="about__box"></div>
-         </div>
-      </div>
-
-      <div class="about__info">
-         <div class="about__list">
-            <div>
-   <h2>Education</h2>              
+<div class="about__info">
+   <div class="about__list">
+   <div>
+  <h2>Education</h2>              
    <ul>
-      <li>- Ph.D. in Economics, 2019 – present<br>&nbsp;&nbsp;&nbsp;&nbsp;University of Manitoba (Canada)</li>
-      <li>- M.Sc. in Development Economics, 2018 - 2019<br>&nbsp;&nbsp;&nbsp;&nbsp;University of Antwerp (Belgium)</li>
-      <li>- M.A. in Economics, 2007<br>&nbsp;&nbsp;&nbsp;&nbsp;African Economic Research Consortium-AERC (Kenya)</li>
+	  <li>- Ph.D. in Economics, 2023 – present<br>&nbsp;&nbsp;&nbsp;&nbsp;University of Manitoba (Canada)</li>
+     	 <li>- Economics - Ph.D. Coursework, 2019 – 2021<br>&nbsp;&nbsp;&nbsp;&nbsp;Charles University, CERGE-EI (Prague)</li>
+  	 <li>- M.Sc. in Development Economics, 2018 - 2019<br>&nbsp;&nbsp;&nbsp;&nbsp;University of Antwerp (Belgium)</li>
+ 	 <li>- M.A. in Economics, 2017<br>&nbsp;&nbsp;&nbsp;&nbsp;African Economic Research Consortium-AERC (Kenya)</li>
+ 	 <li>- BA and M.A. in Economics, 2011-2016<br>&nbsp;&nbsp;&nbsp;&nbsp;Université Catholique de Bukavu (DRC)</li>
    </ul>
    <div style="margin-bottom: 10px;"></div> <!-- Add spacing after this item -->
 </div>
+
     <div>
    <h2>Affiliations</h2>
    <ul>
@@ -166,6 +122,17 @@
    </p>
    <div style="margin-bottom: 10px;"></div> <!-- Add spacing after this item -->
 </div>
+   <h2>Citizenship</h2>
+   <p>
+      Canadian Permanent Resident
+   </p>
+  <div style="margin-bottom: 10px;"></div> <!-- Add spacing after the paragraph -->
+   <!-- Download CV Button -->
+   <a href="assets/fredericmirindi_cv.pdf" download class="button">
+      <i class="ri-download-line"></i> Download My CV
+   </a>    
+   <div style="margin-bottom: 10px;"></div> <!-- Add spacing after this item -->
+</div>
          </div>
          <p class="about__description">
             Passionate about <b>Data, Economics, and Design of Policy </b> using <b>Python/R</b>, 
@@ -176,16 +143,70 @@
             <a href="#contact" class="button">
                <i class="ri-send-plane-line"></i> Contact Me
             </a>
-            <a href="https://www.linkedin.com/" target="_blank" class="button__ghost">
+            <a href="https://www.linkedin.com/in/frédéric-mirindi-5bb1b466" target="_blank" class="button__ghost">
                <i class="ri-linkedin-box-line"></i>
             </a>
          </div>
       </div>
    </div>
 </section>
-         <!--==================== SERVICES ====================-->
-         <section class="services section">
+
+<!--==================== Fundings, Research Outputs, Honors and Scholarships ====================-->
+<section class="combined-section section" id="combined-section">
+    <div class="combined-container container grid">
+
+        <!-- Additional Fundings -->
+        <div>
             <h2 class="section__title-2">
+                <span>Additional Fundings.</span>
+            </h2>
+            <ul>
+                <li>- 2022: Jeunes entrepreneurs 18 - 35 ans, CDEM Manitoba: $1000</li>
+                <li>- 2023: 48H Top Chrono, RDEE Canada: $1000</li>
+                <li>- 2023: Projet Jeunesse francophone et innovation sociale (15-30 en Action): $5000</li>
+            </ul>
+        </div>
+
+        <!-- Research Outputs -->
+        <div>
+            <h2 class="section__title-2">
+                <span>Research Outputs.</span>
+            </h2>
+            <ul>
+                <li id="paper-1">- Frédéric Mirindi (2023): <i>Family Size and Child Outcomes in Sub-Saharan Africa: The Role of Social Norms</i>, Working Paper <a href="research/papers/paper1.pdf" target="_blank" onclick="showAbstract('abstract-1')"><i class="fa fa-file-pdf-o"></i></a></li>
+                <!-- Add more papers as needed -->
+            </ul>
+            <!-- Abstract container -->
+            <div id="abstract-container">
+                <div id="abstract-1" class="abstract">
+                    <h3>Abstract</h3>
+                    <p>The economic literature suggests that family size is a driver of child outcomes...</p>
+                    <p>Keywords: family size, human capital, quantity-quality tradeoff, dilution effect, spillover effect, social norms, Sub-Saharan Africa</p>
+                </div>
+                <!-- Add more abstracts as needed -->
+            </div>
+        </div>
+
+        <!-- Honors and Scholarships -->
+        <div>
+            <h2 class="section__title-2">
+                <span>Honors and Scholarships.</span>
+            </h2>
+            <ul>
+                <li>- Summer 2019: Charles University, Ph.D. scholarship, Czech Republic</li>
+                <li>- Winter 2018: M.Sc. Vlir-Uos Scholarship, Belgium</li>
+                <li>- Summer 2017: African Economic Research Consortium, MA/PhD, Fellowship</li>
+                <li>- Fall 2011-16: AUCAM Scholarship, Catholic University of Louvain</li>
+            </ul>
+            <div style="margin-bottom: 10px;"></div> <!-- Add spacing after this item -->
+        </div>
+
+    </div>
+</section>
+
+         <!--==================== SERVICES ====================-->
+         <section class="services section" id="services">
+            <h2 class="section__title-1">
                <span>Services.</span>
             </h2>
 
@@ -251,38 +272,32 @@
 
          <!--==================== PROJECTS ====================-->
          <section class="projects section" id="projects">
-            <h2 class="section__title-1">
+            <h2 class="section__title-2">
                <span>Projects.</span>
             </h2>
 
             <div class="projects__container container grid">
                <article class="projects__card">
-                  <div class="projects__image">
-                     <img src="assets/img/project-1.jpg" alt="image" class="projects__img">
-
-                     <a href="#" class="projects__button button">
-                        <i class="ri-arrow-right-up-line"></i>
-                     </a>
-                  </div>
-
+    <div class="projects__image">
+        <img src="assets/img/project-1.jpg" alt="image" class="projects__img">
+        <a href="#" class="projects__button button">
+            <i class="ri-arrow-right-up-line"></i>
+        </a>
+    </div>
+    
                   <div class="projects__content">
                      <h3 class="projects__subtitle">Website</h3>
                      <h2 class="projects__title">Economic Data Analysis</h2>
-
+                     
                      <p class="projects__description">
                         I analyze economic data to identify trends 
                         and insights crucial for decision-making.
                      </p>
                   </div>
-
-                  <div class="projects__buttons">
-                     <a href="https://github.com/" target="_blank" class="projects__link">
-                        <i class="ri-github-line"></i> View
-                     </a>
-
-                     <a href="https://dribbble.com/" target="_blank" class="projects__link">
-                        <i class="ri-dribbble-line"></i> View
-                     </a>
+<div class="projects__buttons">
+<a href="economic_data_analysis.html" class="projects__link">
+    <i class="ri-money-dollar-circle-line"></i> View
+</a>
                   </div>
                </article>
 
@@ -307,11 +322,7 @@
 
                   <div class="projects__buttons">
                      <a href="https://github.com/" target="_blank" class="projects__link">
-                        <i class="ri-github-line"></i> View
-                     </a>
-
-                     <a href="https://dribbble.com/" target="_blank" class="projects__link">
-                        <i class="ri-dribbble-line"></i> View
+                        <i class="ri-global-line"></i> View
                      </a>
                   </div>
                </article>
@@ -337,11 +348,7 @@
 
                   <div class="projects__buttons">
                      <a href="https://github.com/" target="_blank" class="projects__link">
-                        <i class="ri-github-line"></i> View
-                     </a>
-
-                     <a href="https://dribbble.com/" target="_blank" class="projects__link">
-                        <i class="ri-dribbble-line"></i> View
+                        <i class="ri-global-line"></i> View
                      </a>
                   </div>
                </article>
@@ -367,11 +374,7 @@
 
                   <div class="projects__buttons">
                      <a href="https://github.com/" target="_blank" class="projects__link">
-                        <i class="ri-github-line"></i> View
-                     </a>
-
-                     <a href="https://dribbble.com/" target="_blank" class="projects__link">
-                        <i class="ri-dribbble-line"></i> View
+                        <i class="ri-global-line"></i> View
                      </a>
                   </div>
                </article>
@@ -385,25 +388,18 @@
                      </a>
                   </div>
 
-                  <div class="projects__content">
-                     <h3 class="projects__subtitle">Website</h3>
-                     <h2 class="projects__title">Consulting Projects</h2>
-
-                     <p class="projects__description">
-                        I collaborate with clients to tackle complex economic and actuarial challenges, 
-                        offering tailored solutions.
-                     </p>
-                  </div>
-
-                  <div class="projects__buttons">
-                     <a href="https://github.com/" target="_blank" class="projects__link">
-                        <i class="ri-github-line"></i> View
-                     </a>
-
-                     <a href="https://dribbble.com/" target="_blank" class="projects__link">
-                        <i class="ri-dribbble-line"></i> View
-                     </a>
-                  </div>
+           <div class="projects__content">
+                <h3 class="projects__subtitle">Website</h3>
+                <h2 class="projects__title">Education</h2>
+                <p class="projects__description">
+                Empowering individuals through quality education to enhance human capital.
+                </p>
+               </div>
+               <div class="projects__buttons">
+                <a href="malaika.html" class="projects__link">
+                <i class="ri-book-2-line"></i> View: Malaïka          
+                </a>
+               </div>
                </article>
             </div>
          </section>
@@ -412,7 +408,7 @@
          <section class="contact section" id="contact">
             <div class="contact__container grid">
                <div class="contact__data">
-                  <h2 class="section__title-2">
+                  <h2 class="section__title-1">
                      <span>Contact Me.</span>
                   </h2>
 
@@ -437,8 +433,8 @@
                   <form action="" class="contact__form" id="contact-form">
                      <div class="contact__group">
                         <div class="contact__box">
-                           <input type="text" name="user_name" class="contact__input" id="name" required placeholder="First Name">
-                           <label for="name" class="contact__label">First Name</label>
+                           <input type="text" name="user_name" class="contact__input" id="name" required placeholder="Full Name">
+                           <label for="name" class="contact__label">Full Name</label>
                         </div>
    
                         <div class="contact__box">
@@ -471,7 +467,7 @@
                   <div class="contact__social-data">
                      <div>
                         <p class="contact__social-description-1">
-                           Does not send emails
+                           If you are unable to send emails
                         </p>
    
                         <p class="contact__social-description-2">
@@ -480,15 +476,12 @@
                      </div>
 
                      <div class="contact__social-links">
-                        <a href="https://www.facebook.com/" class="contact__social-link" target="_blank">
-                           <i class="ri-facebook-circle-line"></i>
+                  
+                        <a href="https://www.github.com/fredericmirindi" class="contact__social-link" target="_blank">
+                           <i class="ri-github-line"></i>
                         </a>
    
-                        <a href="https://www.instagram.com/" class="contact__social-link" target="_blank">
-                           <i class="ri-instagram-line"></i>
-                        </a>
-   
-                        <a href="https://www.linkedin.com/" class="contact__social-link" target="_blank">
+                        <a href="https://www.linkedin.com/in/frédéric-mirindi-5bb1b466" class="contact__social-link" target="_blank">
                            <i class="ri-linkedin-box-line"></i>
                         </a>
                      </div>
@@ -503,11 +496,11 @@
          <div class="footer__container container grid">
             <ul class="footer__links">
                <li>
-                  <a href="#home" class="footer__link">Home</a>
+                  <a href="#about" class="footer__link">About Me</a>
                </li>
 
                <li>
-                  <a href="#about" class="footer__link">About</a>
+                  <a href="#services" class="footer__link">Services</a>
                </li>
 
                <li>
@@ -537,3 +530,4 @@
       <script src="assets/js/main.js"></script>
    </body>
 </html>
+
