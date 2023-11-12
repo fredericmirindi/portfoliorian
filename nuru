@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Immigrant Integration Program - Nuru</title>
+    <!-- Link to external CSS files similar to index.html -->
+</head>
+<body>
+    <!-- Navigation, header, or other shared components -->
+
+    <section>
+        <h1>Immigrant Integration Through Environmental Awareness in Manitoba</h1>
+        <img src="path_to_your_image.jpg" alt="Main Banner Image" style="width:100%;">
+        <p>
+            The Immigrant Integration Through Environmental Awareness in Manitoba aims
+            to raise awareness and integrate newcomers to the province on local environmental issues. It
+            recognizes that immigrants are an important part of the Manitoban community and that their
+            awareness in preserving the environment can significantly contribute to the protection
+            of the region's natural resources.
+        </p>
+    </section>
+
+    <section>
+        <h2>Program Objectives</h2>
+        <ul>
+            <li>
+                <strong>Environmental Awareness:</strong> Organize information sessions and workshops for
+                newcomers to raise awareness about specific environmental issues in Manitoba,
+                such as biodiversity conservation, water management, and waste reduction.
+                <img src="path_to_environmental_workshop.jpg" alt="Environmental Workshop" style="width:100%;">
+            </li>
+            <li>
+                <strong>Community Integration:</strong> Encourage active participation of immigrants in environmental
+                preservation projects and volunteering activities in collaboration with local
+                organizations.
+                <img src="path_to_community_integration.jpg" alt="Community Integration" style="width:100%;">
+            </li>
+            <li>
+                <strong>Sustainable Practices Education:</strong> Provide practical information on sustainable
+                daily practices, such as recycling, reducing water consumption, and waste management.
+                <img src="path_to_sustainable_practices.jpg" alt="Sustainable Practices" style="width:100%;">
+            </li>
+            <li>
+                <strong>Networking:</strong> Facilitate networking between immigrants and local residents
+                interested in environmental preservation.
+                <img src="path_to_networking_event.jpg" alt="Networking Event" style="width:100%;">
+            </li>
+        </ul>
+    </section>
+
+    <!-- Footer or other shared components -->
+</body>
+</html>
