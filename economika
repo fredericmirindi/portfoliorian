@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Economika - Discussing Economic Issues</title>
+</head>
+<body>
+    <header>
+        <h1>Economika</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#topics">Topics</a></li>
+                <li><a href="#articles">Articles</a></li>
+                <li><a href="#resources">Resources</a></li>
+                <li><a href="#forum">Forum</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Welcome to Economika</h2>
+        <p>Explore a world of economic discussions on Microeconomics, Macroeconomics, Development Economics, and Trade.</p>
+    </section>
+
+    <section id="topics">
+        <h2>Topics</h2>
+        <!-- Add subsections for each economic field here -->
+    </section>
+
+    <section id="articles">
+        <h2>Articles</h2>
+        <!-- List articles or link to articles here -->
+    </section>
+
+    <section id="resources">
+        <h2>Resources</h2>
+        <!-- Add downloadable resources, links, etc. -->
+    </section>
+
+    <section id="forum">
+        <h2>Forum</h2>
+        <!-- Embed or link to the forum -->
+    </section>
+
+    <section id="about">
+        <h2>About Economika</h2>
+        <!-- Add information about the site, mission, team -->
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <!-- Add contact form, email, phone, address -->
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Economika. All rights reserved.</p>
+    </footer>
+</body>
+</html>
