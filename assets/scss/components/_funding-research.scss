@@ -1,1 +1,33 @@
-
+/* Fundings and Research Outputs Section */
+#additional-fundings {
+  background-color: #f4f4f4; /* Set the background color */
+  padding: 40px; /* Add padding for spacing */
+  
+  .subsection-title {
+    font-size: 24px; /* Adjust the font size for subsection titles */
+    margin-bottom: 15px; /* Add spacing below subsection titles */
+  }
+  
+  ul {
+    list-style: none; /* Remove default list styles */
+    padding: 0; /* Remove default padding */
+  }
+  
+  li {
+    margin-bottom: 10px; /* Add spacing between list items */
+  }
+  
+  a {
+    text-decoration: none; /* Remove underline from links */
+    color: #007bff; /* Set link color */
+    transition: color .4s; /* Add transition for color change */
+    
+    &:hover {
+      color: #0056b3; /* Change color on hover */
+    }
+  }
+  
+  li:hover {
+    background-color: #ffffff; /* Change background color on hover */
+  }
+}
