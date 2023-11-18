@@ -1527,3 +1527,36 @@ body.dark-theme {
   }
 }
 
+/* Fundings and Research Outputs Section */
+.funding-research {
+  padding: 80px 0; /* Adjust padding as needed for spacing */
+  background-color: #f4f4f4; /* Set a background color for the section */
+}
+
+.subsection {
+  margin-bottom: 30px; /* Add spacing between subsections */
+}
+
+.subsection__title {
+  font-size: 24px; /* Adjust the font size for subsection titles */
+  margin-bottom: 15px; /* Add spacing below subsection titles */
+}
+
+.subsection__list {
+  list-style: none; /* Remove default list styles */
+  padding: 0; /* Remove default padding */
+}
+
+.subsection__list li {
+  margin-bottom: 10px; /* Add spacing between list items */
+}
+
+.subsection__list li a {
+  text-decoration: none; /* Remove underline from links */
+  color: #007bff; /* Set link color */
+  margin-left: 10px; /* Add spacing between text and links */
+}
+
+.subsection__list li a:hover {
+  text-decoration: underline; /* Add underline on hover for links */
+}
